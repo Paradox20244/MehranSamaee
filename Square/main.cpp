@@ -82,7 +82,7 @@ int main() {
 	glUniform1i(TextureUniform0, 0);
 
 	Audio Babaii("Resources/Sounds/Babaii.wav");
-	double FPSCap = 60.0;
+	double FPSCap = 30.0;
 	double TargetDelay = 1.0 / FPSCap;
 	double LastFrameTime = glfwGetTime();
 
